@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Face Detection App</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <h1>Facial Expression Recognition APP in the browser using WebCam</h1>
+    <div class="container">
+      <video id="video" height="500" width="500" autoplay muted></video>
+    </div>
+    <div class="result-container">
+      <div id="emotion">Emotion</div>
+      <div id="gender">Gender</div>
+      <div id="age">Age</div>
+    </div>
+
+    <div class="bottom-container">
+      <p class="copyright">© 2022 Vinit Pundeer @ FaceRecognitionApp.</p>
+    </div>
+    <script src="JS/face-api.min.js"></script>
+    <script src="JS/main.js"></script>
+    <script type="application/json" src="./models"></script>
+  </body>
+</html>
