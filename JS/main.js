@@ -57,14 +57,15 @@ video.addEventListener("playing", () => {
     /****Setting values to the DOM****/
     if (resizedDetections && Object.keys(resizedDetections).length > 0) {
       const age = resizedDetections.age;
-      const interpolatedAge = interpolateAgePredictions(age);
+      let interpolatedAge = interpolateAgePredictions(age);
+      let roundAge = Math.round(interpolatedAge);
       const gender = resizedDetections.gender;
       const expressions = resizedDetections.expressions;
       const maxValue = Math.max(...Object.values(expressions));
       const emotion = Object.keys(expressions).filter(
         item => expressions[item] === maxValue
       );
-      document.getElementById("age").innerText = `Age - ${interpolatedAge}`;
+      document.getElementById("age").innerText = `Age - ${roundAge}`;
       document.getElementById("gender").innerText = `Gender - ${gender}`;
       document.getElementById("emotion").innerText = `Emotion - ${emotion[0]}`;
     }
