@@ -30,6 +30,8 @@ The output of this WebApp will look as shown below:
 
 ![image](https://user-images.githubusercontent.com/79745487/170855293-c61e7b65-02a5-4cfb-84bf-7a7273f2bc7b.png)
 
+### Note: The model folder and face-api.min.js are mandatory.
+
 
 ## References
 
