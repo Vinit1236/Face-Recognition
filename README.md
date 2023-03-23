@@ -32,9 +32,11 @@ The output of this WebApp will look as shown below:
 
 ### Note: The model folder and face-api.min.js are mandatory.
 
+## Links
+ * https://vinit-pundeer-portfolio.netlify.app/
+ * https://vinit-weather-app.onrender.com
 
 ## References
-
 * Github: https://github.com/Vinit1236/Face-recognition
 * Deployed App: https://vinit1236.github.io/Face-recognition/
 * w3school: https://www.w3schools.com/
