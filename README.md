@@ -45,3 +45,5 @@ The output of this WebApp will look as shown below:
 ## Connect with me
 * Linkedin: https://www.linkedin.com/in/vinit-pundeer-587833196
 * Instagram: https://www.instagram.com/thakur_vinit_rajput/
+* Github: https://github.com/Vinit1236/
+* Portfolio: https://vinit-pundeer-portfolio.netlify.app/
