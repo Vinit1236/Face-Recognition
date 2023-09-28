@@ -23,7 +23,7 @@ I have build the face recognition app that will work in the Browser. From the fa
 ![image](https://user-images.githubusercontent.com/79745487/170855996-ebc476a0-1430-43ca-b6c4-bd468abeaeea.png)
 
 OR,
-* you can run the app deployed by me, using the following URL: https://vinit1236.github.io/Face-recognition/
+* you can run the app deployed by me, using the following URL: https://face-sense-iipf2foiv-vinit1236.vercel.app/
 ## Output
 The output of this WebApp will look as shown below:
 
@@ -38,7 +38,7 @@ The output of this WebApp will look as shown below:
 
 ## References
 * Github: https://github.com/Vinit1236/Face-recognition
-* Deployed App: https://vinit1236.github.io/Face-recognition/
+* Deployed App: https://face-sense-iipf2foiv-vinit1236.vercel.app/
 * w3school: https://www.w3schools.com/
 
 
