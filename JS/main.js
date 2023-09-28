@@ -65,7 +65,7 @@ video.addEventListener("playing", () => {
       const emotion = Object.keys(expressions).filter(
         item => expressions[item] === maxValue
       );
-      document.getElementById("age").innerText = `Age - ${roundAge}`;
+      document.getElementById("age").innerText = `Age(approx) - ${roundAge}`;
       document.getElementById("gender").innerText = `Gender - ${gender}`;
       document.getElementById("emotion").innerText = `Emotion - ${emotion[0]}`;
     }
