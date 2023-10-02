@@ -33,12 +33,12 @@ The output of this WebApp will look as shown below:
 ### Note: The model folder and face-api.min.js are mandatory.
 
 ## Links
- * https://vinit-pundeer-portfolio.netlify.app/
+ * https://vinit-portfolio-one.vercel.app/
  * https://vinit-weather-app.onrender.com
 
 ## References
 * Github: https://github.com/Vinit1236/Face-recognition
-* Deployed App: https://face-sense-ixfgef5xo-vinit1236.vercel.app/
+* Deployed App: https://face-sense.vercel.app/
 * w3school: https://www.w3schools.com/
 
 
