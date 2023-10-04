@@ -2,7 +2,7 @@ const video = document.getElementById("video");
 const isScreenSmall = window.matchMedia("(max-width: 700px)");
 let predictedAges = [];
 
-/****Loading the model ****/
+/***Loading the model ***/
 Promise.all([
   faceapi.nets.tinyFaceDetector.loadFromUri("./models"),
   faceapi.nets.faceLandmark68Net.loadFromUri("./models"),
@@ -19,7 +19,7 @@ function startVideo() {
   );
 }
 
-/****Fixing the video with based on size ****/
+/***Fixing the video with based on size ***/
 function screenResize(isScreenSmall) {
   if (isScreenSmall.matches) {
     video.style.width = "320px";
